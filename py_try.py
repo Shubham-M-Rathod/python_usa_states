@@ -19,7 +19,7 @@ while count<51:
         t.penup()
         match=df[df.state==guess.title()]
         t.goto(float(match.x), float(match.y))
-        t.write(guess)
+        t.write(guess.title())
         count=count+1
         print(guess.title())
 turtle.mainloop()
